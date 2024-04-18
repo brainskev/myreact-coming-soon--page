@@ -7,10 +7,17 @@ class CountDown extends Component {
     super(props);
     this.count = this.count.bind(this);
     this.state = {
+<<<<<<< Updated upstream
       days: 4,
       minutes: 1,
       hours: 1,
       secounds: 1,
+=======
+      days: 1,
+      minutes: 0,
+      hours: 0,
+      secounds: 0,
+>>>>>>> Stashed changes
       time_up: ""
     };
     this.x = null;
@@ -43,7 +50,7 @@ class CountDown extends Component {
     }
   }
   componentDidMount() {
-    this.deadline = new Date("Mar 11, 2024 10:00:00").getTime();
+    this.deadline = new Date("Apr 29, 2024 10:00:00").getTime();
 
     this.x = setInterval(this.count, 1000);
   }
