@@ -7,10 +7,10 @@ class CountDown extends Component {
     super(props);
     this.count = this.count.bind(this);
     this.state = {
-      days: 0,
-      minutes: 0,
-      hours: 0,
-      secounds: 0,
+      days: 4,
+      minutes: 1,
+      hours: 1,
+      secounds: 1,
       time_up: ""
     };
     this.x = null;
