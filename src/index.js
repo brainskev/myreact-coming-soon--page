@@ -11,6 +11,8 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>
+          Rascom.co.ke
+          <br />
           Website
           <br />
           Coming Soon
