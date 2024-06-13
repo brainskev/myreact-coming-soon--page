@@ -19,9 +19,9 @@ body {
   background: rgb(124, 94, 46);
   background: linear-gradient(
     0deg,
-    rgba(205, 133, 63, 1) 0%,  /* Original color */
-    rgba(205, 133, 63, 0.5) 50%,  /* Lighter shade of orange (50% opacity) */
-    rgba(205, 133, 63, 0.6) 100%  /* Original color with 60% opacity */
+    rgba(49, 49, 177, 1) 0%,
+    rgba(49, 49, 177, 1) 50%,
+    rgba(49, 49, 177, 0.6) 100%
   );
 }
 
