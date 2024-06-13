@@ -10,8 +10,8 @@ class Optin extends Component {
   render() {
     return (
       <div className="optin">
-        <p>Want to be the first to know when we launch?</p>
-        <button onClick={() => this.modal()}>Click Me</button>
+        <p>Stay tuned to know when we launch</p>
+        {/* <button onClick={() => this.modal()}>Click Me</button> */}
         <div id="modal">
           <div className="wrapper">
             <h3>Enter Your Email</h3>
