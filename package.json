@@ -24,5 +24,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+
+  "resolutions": {
+  "ajv": "6.12.6"
+}
 }
